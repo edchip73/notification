@@ -1,0 +1,24 @@
+{
+    "name": "eduardo.santos/notification",
+    "description": "biblioteca que utiliza composer como base para enviar emails",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EduardoSantos\\Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Santos",
+            "email": "edchip73@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.7.1"
+    },
+	"config":{
+		"vendor-dir":"lib_ext"
+	}
+}
